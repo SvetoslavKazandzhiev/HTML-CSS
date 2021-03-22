@@ -1,0 +1,160 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+header {
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)),
+     url('../Requirements-and-Resources/image/computer-main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px 90px;
+    
+}
+
+header {
+    margin: 0;
+}
+
+header ul li {
+    display: inline-block;
+    width: 49%;
+    text-shadow: -1px 3px 7px rgba(0,0,0,0.69);
+
+}
+
+header ul li,
+header ul li i {
+    color: white;
+}
+
+header ul li:first-child {
+    text-align: left;
+}
+
+header ul li:nth-child(2) {
+    text-align: right;
+}
+
+.header-info {
+    color: white;
+    text-align: center;
+}
+
+.header-content {
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto 50px auto;
+}
+
+.header-cta {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 50px auto;
+    background: rgb(0 208 142);
+    border: none;
+    color: rgb(255 255 255);
+    font-size: 17px;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.header-link {
+    display: inline;
+    text-decoration: none;
+    color: rgb(255 255 255);
+    margin-bottom: 80px;
+}
+
+.about-us article,
+.benefits article {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 49%;
+}
+
+.about-us .image-wrapper img,
+.benefits .image-wrapper img {
+    width: 102%;
+}
+
+.about-us-content {
+    padding: 30px;
+}
+
+.about-us-content li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.about-us-content li i {
+    color: #00d08e;
+    margin-right: 10px;
+}
+
+.about-us-content .title, .benefits-content .title  
+ {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.about-us-content .subtitle {
+    width: 80%;
+    margin-top: 0;
+}
+
+.benefits {
+    position: relative;
+    top: -4px;
+    left: -1px;
+}
+
+.benefits article {
+    width: 49.8%;
+}
+
+.benefits-content {
+    text-align: center;
+}
+
+.benefits-content ul li {
+    display: inline-block;
+    color: #00d08e;
+    width: 30%;
+    margin: 10px 0;
+}
+
+.benefits-content ul li h5 {
+    margin-top: 0;
+}
+
+.benefits-content ul li img {
+    width: 100%;
+    max-width: 70px;
+}
+
+.benefits .title {
+    margin-bottom: 40px;
+}
+
+.questions {
+    background: #b2f1dd;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    top: -8px;
+    right: -12px;
+}
+
+.questions article {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 16px;
+}
